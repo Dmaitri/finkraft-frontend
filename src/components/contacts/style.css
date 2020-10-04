@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    
+}
+.pagination li a {
+    cursor: pointer;
+}
+
+.nodata {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-number {
+    min-width: 0;
+    max-width: 4em;
+    width: 100%;
+    padding: 0;
+}
+
+.page-number::-webkit-inner-spin-button, 
+.page-number::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
